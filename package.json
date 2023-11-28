@@ -1,15 +1,15 @@
 {
-    "name": "suhail-md",
+    "name": "Trace bot",
     "version": "1.0.4",
-    "description": "Multi device whatsapp bot by SuhailTechInfo.",
-    "main": "lib/client.js",
+    "description": "Multi device whatsapp bot by Trace.",
+    "main": "",
     "type": "commonjs",
     "license": "GPL-3.0",
 "scripts": {
-     "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
-     "stop": "pm2 stop Suhail"
+     "start": "pm2 start lib/client.js --deep-monitoring --attach --name Trace",
+     "stop": "pm2 stop Trace"
      },
-    "author": "SuhailTechInfo",
+    "author": "Trace ser",
    "dependencies": {
             "@sampandey001/baileys": "latest",
             "@adiwajshing/keyed-db": "^0.2.4",
@@ -72,10 +72,10 @@
          },
       "repository": {
       "type": "git",
-      "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
+      "url": ""
        },
       "bugs": {
-      "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues"
+      "url": ""
        },
-      "homepage": "https://github.com/SuhailTechInfo/Suhail-Md#readme"
+      "homepage": ""
        }
